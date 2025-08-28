@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "Prakeerth Kalambeth | MBA Portfolio"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Resume
+        href: resume.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Skills
+        href: skills.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/YOUR-LINK
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/YOUR-USERNAME
+      - text: "Download CV"
+        href: Prakeerth_Kalambeth_Resume.pdf
+        target: _blank
+  page-footer:
+    left: "© 2025 Prakeerth Kalambeth"
+    right: "Built with Quarto"
+
+format:
+  html:
+    toc: true
+    css: [styles.css]

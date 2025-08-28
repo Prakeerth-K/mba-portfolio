@@ -1,0 +1,56 @@
+---
+title: "Projects"
+---
+
+<div class="reveal card doodle">
+  <img class="doodle-corner" src="images/doodles/corner-doodle.svg" alt="">
+  <h2 class="with-squiggle">Fresh Slice Pizza – Marketing Campaign</h2>
+  <p><span class="badge">STP</span><span class="badge">Positioning</span><span class="badge">Social</span></p>
+  <ul>
+    <li>Analyzed target segments (students, professionals, commuters) around Broadway City Hall station.</li>
+    <li>Built content + offer plan (IG/TikTok short videos, UGC “slice-of-the-day”, QR coupons at station exits).</li>
+    <li>Positioned affordability, convenience, and lighter choices vs. Uncle Faith’s; proposed <em>Vegan Mania</em> angle.</li>
+    <li>Deliverables: campaign deck, execution checklist, 600-word action memo with 5 caption variants.</li>
+  </ul>
+</div>
+
+<img class="doodle-divider" src="images/doodles/divider-wave.svg" alt="">
+
+<div class="reveal card doodle">
+  <img class="doodle-star" src="images/doodles/starburst.svg" alt="">
+  <h2 class="with-squiggle">AWS Cloud Portfolio</h2>
+  <p class="callout">
+    Quarto docs for IAM, VPC, EC2, S3, Governance — hosted on GitHub Pages.
+    <img class="doodle-arrow" src="images/doodles/arrow-handdrawn.svg" alt="">
+  </p>
+  <ul>
+    <li>Built VPC with public/private subnets, route tables, IGW/NAT; hardened security groups.</li>
+    <li>Configured IAM roles/policies; S3 with versioning, replication, lifecycle and encryption.</li>
+    <li>Documented each module with diagrams & screenshots and hosted the Quarto site on GitHub Pages.</li>
+  </ul>
+  <p><a class="badge" href="https://prakeerth-k.github.io/Cloud-Portfolio-Prakeerth/" target="_blank" rel="noopener">View on GitHub</a></p>
+</div>
+
+<img class="doodle-divider" src="images/doodles/divider-wave.svg" alt="">
+
+<div class="reveal card doodle">
+  <h2 class="with-squiggle">Predictive Analytics – Hotel Booking Demand</h2>
+  <p><span class="badge">ABT Design</span><span class="badge">Decision Trees</span><span class="badge">KNN</span><span class="badge">Regression</span></p>
+  <ul>
+    <li><strong>Goal:</strong> Predict cancellation risk & inform overbooking thresholds.</li>
+    <li><strong>ABT:</strong> Feature engineering for lead time, seasonality, customer type, LOS; leakage checks.</li>
+    <li><strong>Models:</strong> DT & KNN for classification; MLR for LOS/ADR; train/test split with cross-validation.</li>
+    <li><strong>Metrics:</strong> Accuracy & F1 for cancellations; MAE/RMSE for regression.</li>
+    <li><strong>Outcome:</strong> Thresholds for high-risk bookings; recommendation memo + comparison table.</li>
+  </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const els = [...document.querySelectorAll('.reveal')];
+  const io = new IntersectionObserver(e => e.forEach(x => {
+    if (x.isIntersecting) x.target.classList.add('is-visible');
+  }), {threshold:.15});
+  els.forEach(el => io.observe(el));
+});
+</script>

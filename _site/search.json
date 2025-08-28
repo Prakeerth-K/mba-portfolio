@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills & Certifications",
+    "section": "",
+    "text": "Data & Analytics\n\n\n\nPython: pandas (wrangling), scikit-learn (DT/KNN/MLR), matplotlib (viz)\n\n\nABT: feature engineering, leakage checks, metric-driven model selection\n\n\nBI: Excel pivots & what-if; Tableau quick dashboards\n\n\n\nPythonpandasscikit-learnmatplotlibExcelTableau\n\n\n\n\nCloud\n\n\n\nAWS Foundations: IAM RBAC, VPC (subnets/IGW/NAT/routes), EC2 hardening\n\n\nS3: versioning, lifecycle, replication, encryption; sample bucket policy\n\n\nOps/Gov: CloudWatch alarms, tagging, light cost control\n\n\n\nIAMVPCEC2S3CloudWatch\n\n\n\n\nBusiness & Marketing\n\n\n\nMarketing: STP, positioning, content pillars, offer design, execution checklists\n\n\nStrategy: SWOT/PESTELE, brief writing, pilot metrics\n\n\nOps: Planograms, pricing changes, e-commerce fulfillment\n\n\n\nSTP4PsSWOTPESTELEExecution\n\n\n\n\nCertifications\n\n\n\nAWS Academy Cloud Foundations (add completion date)\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Fresh Slice Pizza – Marketing Campaign\n\n\nSTPPositioningSocial\n\n\n\nAnalyzed target segments (students, professionals, commuters) around Broadway City Hall station.\n\n\nBuilt content + offer plan (IG/TikTok short videos, UGC “slice-of-the-day”, QR coupons at station exits).\n\n\nPositioned affordability, convenience, and lighter choices vs. Uncle Faith’s; proposed Vegan Mania angle.\n\n\nDeliverables: campaign deck, execution checklist, 600-word action memo with 5 caption variants.\n\n\n\n\n\n\n\nAWS Cloud Portfolio\n\n\nQuarto docs for IAM, VPC, EC2, S3, Governance — hosted on GitHub Pages. \n\n\n\nBuilt VPC with public/private subnets, route tables, IGW/NAT; hardened security groups.\n\n\nConfigured IAM roles/policies; S3 with versioning, replication, lifecycle and encryption.\n\n\nDocumented each module with diagrams & screenshots and hosted the Quarto site on GitHub Pages.\n\n\n\nView on GitHub\n\n\n\n\n\nPredictive Analytics – Hotel Booking Demand\n\n\nABT DesignDecision TreesKNNRegression\n\n\n\nGoal: Predict cancellation risk & inform overbooking thresholds.\n\n\nABT: Feature engineering for lead time, seasonality, customer type, LOS; leakage checks.\n\n\nModels: DT & KNN for classification; MLR for LOS/ADR; train/test split with cross-validation.\n\n\nMetrics: Accuracy & F1 for cancellations; MAE/RMSE for regression.\n\n\nOutcome: Thresholds for high-risk bookings; recommendation memo + comparison table."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Let’s Connect\n\n\nEmail: prakeerth89@gmail.com\n\n\nLinkedIn: linkedin.com/in/prakeerth-kelembath-2250711a7\n\n\nGitHub Portfolio: prakeerth-k.github.io/Cloud-Portfolio-Prakeerth/\n\n\nGitHub Profile: github.com/Prakeerth-K\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About Me\n\n\nI’m Prakeerth Kalambeth, an MBA student at University Canada West in Vancouver. I combine marketing strategy with practical cloud & analytics builds to deliver work that is easy to run and measure.\n\n\n\n\nWhat I’m Good At\n\n\n\nTurning messy briefs into concrete plans (objectives, channels, owners, KPIs)\n\n\nBuilding simple cloud/data pieces that support execution (IAM, VPC, S3)\n\n\nWriting short, clear docs that help teams move fast\n\n\n\n\n\nExperience Snapshots\n\n\n\nSave-On-Foods — pricing, planograms, e-commerce fulfillment\n\n\nSubway — Sandwich Artist; POS System & Customer Service\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hi, I’m Prakeerth 👋\n\n\nUCW MBA candidate focused on marketing strategy, cloud & analytics, and project execution.\n\n\nSee Projects Resume Skills Contact\n\n\n\n\nHighlights\n\n\n\nFresh Slice Pizza marketing campaign (STP, positioning, social activation)\n\n\nAWS Academy portfolio (IAM, VPC, S3, EC2, Data Governance)\n\n\nPredictive Analytics (DT, KNN, regression) — practical model comparisons\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Education\n\n\n\nMBA, University Canada West — Expected 2025 Electives: Predictive Analytics, Cloud Computing, Applications of AI in Business\n\n\nB.Com (Hons), J.K. Business School (India) — 2021\n\n\n\n\n\nExperience\n\n\nGeneral Clerk — Save-On-Foods (Vancouver, May,2024–Present)\n\n\n\nPricing: Executed weekly price changes across multiple systems with high accuracy; verified tags and shelf labels before store open.\n\n\nPlanograms: Implemented and maintained category layouts to improve shelf findability; coordinated resets with department leads.\n\n\nE-commerce: Picked and packed online orders with strong on-time and accuracy metrics; resolved substitutions with customers when needed.\n\n\nOps support: Assisted with inventory counts, backroom organization, and front-of-store presentation during peak periods.\n\n\n\nTeam Member — Subway (Vancouver, March,2024–May,2024)\n\n\n\nGuest service & POS: Greeted guests, took customized orders, and processed payments quickly during rush periods while keeping line flow efficient.\n\n\nFood prep & safety: Prepared vegetables, proteins, and bread according to food-safety standards; maintained clean prep lines and temperature logs.\n\n\nLine operations: Built sandwiches to spec, upsold combos/add-ons, and handled special requests or dietary preferences accurately.\n\n\nInventory & closing: Monitored low-stock items, assisted with daily counts, rotated product (FIFO), and completed end-of-day cleaning/closing checklists.\n\n\nTeam support: Helped train new hires on station setup, portion control, and customer-service basics; communicated clearly during busy shifts.\n\n\n\n\n\nTools & Methods\n\n\nPythonExcelTableau STP & 4PsIAMVPC EC2S3\n\n\n\n\n\n↑"
+  }
+]

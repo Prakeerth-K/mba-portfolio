@@ -1,0 +1,14 @@
+---
+title: "Skills & Certifications"
+---
+
+# 🛠 Skills
+- **Data Analysis & Visualization** – Excel, Tableau, Python  
+- **Business Analytics Concepts** – Predictive Analytics, AI Applications, Data-Driven Decision Making  
+- **Cloud Computing Fundamentals** – Experience with Amazon AWS; familiar with deploying and managing cloud-based applications  
+- **Problem Solving & Critical Thinking** – Strong analytical mindset for interpreting data and making strategic recommendations  
+- **Communication Skills** – Clear and confident in presenting insights and collaborating with diverse teams  
+- **Adaptability & Learning** – Open to new technologies and continuously expanding my skill set  
+
+# 📜 Certifications
+- AWS Academy Cloud Foundations

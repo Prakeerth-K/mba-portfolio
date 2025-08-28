@@ -1,0 +1,52 @@
+---
+title: "About"
+---
+
+<div class="reveal card">
+  <h2>About Me</h2>
+  <p>I’m <strong>Prakeerth Kalambeth</strong>, an MBA student at <strong>University Canada West</strong> in Vancouver. I combine marketing strategy with practical cloud & analytics builds to deliver work that is easy to run and measure.</p>
+</div>
+
+<div class="reveal card">
+  <h2>What I’m Good At</h2>
+  <ul>
+    <li>Turning messy briefs into concrete plans (objectives, channels, owners, KPIs)</li>
+    <li>Building simple cloud/data pieces that support execution (IAM, VPC, S3)</li>
+    <li>Writing short, clear docs that help teams move fast</li>
+  </ul>
+</div>
+
+<div class="reveal card">
+  <h2>Experience Snapshots</h2>
+  <ul>
+    <li>Save-On-Foods — pricing, planograms, e-commerce fulfillment</li>
+    <li>Subway — Sandwich Artist; POS System & Customer Service</li>
+  </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const els = [...document.querySelectorAll('.reveal')];
+  const io = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) x.target.classList.add('is-visible'); }), {threshold:.15});
+  els.forEach(el => io.observe(el));
+});
+</script>
+<!-- Go to Top Button -->
+<button onclick="topFunction()" id="toTopBtn" title="Go to top">↑</button>
+
+<script>
+  // Show button when scrolling down
+  const toTopBtn = document.getElementById("toTopBtn");
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      toTopBtn.style.display = "block";
+    } else {
+      toTopBtn.style.display = "none";
+    }
+  };
+
+  // Scroll back to top
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>

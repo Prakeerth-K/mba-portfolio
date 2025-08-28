@@ -1,0 +1,73 @@
+---
+title: "Skills & Certifications"
+---
+
+<div class="reveal card">
+  <h2>Data & Analytics</h2>
+  <ul>
+    <li><strong>Python:</strong> pandas (wrangling), scikit-learn (DT/KNN/MLR), matplotlib (viz)</li>
+    <li><strong>ABT:</strong> feature engineering, leakage checks, metric-driven model selection</li>
+    <li><strong>BI:</strong> Excel pivots & what-if; Tableau quick dashboards</li>
+  </ul>
+  <p>
+    <span class="badge">Python</span><span class="badge">pandas</span><span class="badge">scikit-learn</span><span class="badge">matplotlib</span><span class="badge">Excel</span><span class="badge">Tableau</span>
+  </p>
+</div>
+
+<div class="reveal card">
+  <h2>Cloud</h2>
+  <ul>
+    <li><strong>AWS Foundations:</strong> IAM RBAC, VPC (subnets/IGW/NAT/routes), EC2 hardening</li>
+    <li><strong>S3:</strong> versioning, lifecycle, replication, encryption; sample bucket policy</li>
+    <li><strong>Ops/Gov:</strong> CloudWatch alarms, tagging, light cost control</li>
+  </ul>
+  <p>
+    <span class="badge">IAM</span><span class="badge">VPC</span><span class="badge">EC2</span><span class="badge">S3</span><span class="badge">CloudWatch</span>
+  </p>
+</div>
+
+<div class="reveal card">
+  <h2>Business & Marketing</h2>
+  <ul>
+    <li><strong>Marketing:</strong> STP, positioning, content pillars, offer design, execution checklists</li>
+    <li><strong>Strategy:</strong> SWOT/PESTELE, brief writing, pilot metrics</li>
+    <li><strong>Ops:</strong> Planograms, pricing changes, e-commerce fulfillment</li>
+  </ul>
+  <p>
+    <span class="badge">STP</span><span class="badge">4Ps</span><span class="badge">SWOT</span><span class="badge">PESTELE</span><span class="badge">Execution</span>
+  </p>
+</div>
+
+<div class="reveal card">
+  <h2>Certifications</h2>
+  <ul>
+    <li>AWS Academy Cloud Foundations <em>(add completion date)</em></li>
+  </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const els = [...document.querySelectorAll('.reveal')];
+  const io = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) x.target.classList.add('is-visible'); }), {threshold:.15});
+  els.forEach(el => io.observe(el));
+});
+</script>
+<!-- Go to Top Button -->
+<button onclick="topFunction()" id="toTopBtn" title="Go to top">↑</button>
+
+<script>
+  // Show button when scrolling down
+  const toTopBtn = document.getElementById("toTopBtn");
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      toTopBtn.style.display = "block";
+    } else {
+      toTopBtn.style.display = "none";
+    }
+  };
+
+  // Scroll back to top
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
